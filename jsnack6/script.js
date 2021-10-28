@@ -10,13 +10,14 @@ while (numberList.length < 50) {
     // è uguale ad un altro numero?
     let duplicateNum = false;
     
+        // controllo il nuovo numero generato con quelli presenti nell'array, se trovo un duplicato cambio il valore boolean
         for (i = 0; i < numberList.length; i ++) {
             if (num === numberList[i]) {
             duplicateNum = true;
             }
         }
     
-    // se non lo è lo aggiungo all array 
+    // se il valore boolean non cambia (numero non duplicato) lo aggiungo all array 
     if (duplicateNum == false) {
         numberList.push(num);
     }
