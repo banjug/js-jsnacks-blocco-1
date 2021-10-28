@@ -24,7 +24,7 @@ while (numberList.length < 50) {
 }
 
 // stampo il risultato
-console.log(numberList);
+console.log("La lista di numeri casuali senza duplicati è: " + numberList);
 
 
 
